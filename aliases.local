@@ -1,0 +1,7 @@
+# git
+
+alias gc='git commit'
+alias gs='git status'
+alias ga='git add'
+alias gl='git l'
+alias cuc='bundle exec cucumber'

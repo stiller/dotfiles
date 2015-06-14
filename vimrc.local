@@ -1,0 +1,16 @@
+" solarized
+
+set background=dark
+colorscheme solarized
+
+" powerline
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
+" because I'm stupid
+command WQ wq
+command Wq wq
+command Q q
+command W w

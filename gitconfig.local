@@ -1,0 +1,7 @@
+[alias]
+  l = log --graph --pretty=colored --abbrev-commit --date=relative
+[pretty]
+  colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[user]
+  name = Joachim Nolten
+  email = joachim@nolten.org
